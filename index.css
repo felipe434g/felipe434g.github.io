@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+  }
+  html, body {
+    height: 100%
+  }
+  body {
+    background-color: #151e33;
+    color: white;
+  font-family: sans-serif; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /*Create*/
+  .create { 
+    width: 100%;
+    max-width: 785px;
+    border-radius: 15px;
+    min-width: 320px;
+    background-color: #1b263e;
+    padding: 3rem;
+  }
+  a {
+    color: #f089a0;
+    text-decoration: none;
+  }
+  /*Login*/
+  .login {
+    text-align: right;
+    font-size: 16px;
+  }
+  
+  /*Conten*/
+  .content h1 {
+    font-size: 26px;
+    text-align: center;
+  }
+  .content {
+    width: 65%;
+    margin: 3rem auto;
+  }
+  
+  .content p {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    
+  }
+  /*Form*/
+  .form label {
+    font-weight: bold;
+    display: block;
+    font-size: 14px;
+    margin-bottom: .3rem;
+    
+  }
+  
+  .form input {
+    display: block;
+    border: none;
+    width: 100%;
+  }
+  .form input[type="text"], .form input[type="email"], .form input[type="password"]{
+    background-color: transparent;
+    border: 1px solid #495e8d;
+    border-radius: 5px;
+    padding: 1.3rem;
+    margin-bottom: 1rem;
+    color: white;
+    font-size: 16px;
+    
+  }
+   
+  form{
+    margin-top: 2rem;
+  }
+  .form input[type="submit"] {
+    
+    border-radius: 5px;
+    background-color: #e3627f;
+    color: white;
+    font-weight: bold;
+    padding: 1.5rem 3rem;
+    cursor: pointer;
+  }
+  /*Legal*/
+  .legal {
+    border-radius: 10px;
+    background-color: #202e4e;
+    padding: 2rem;
+    width: 85%;
+    margin: 0 auto;
+    color: #8f9ab2;
+  }
+  
